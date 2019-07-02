@@ -1,21 +1,23 @@
 This is the individual project completed for SDN course.
 Server Load Balancer is implemented in Java based on ONOS conroller via OpenFlow as Southbound interface. 
+The design supports dynamic topology changes.
+Performances are compared among different scheduling schemes.
 
 
 ------------------
 ONOS projects
 ------------------
 - student-lbdynam: Main implementation project
-- student-lbRR: testing project for selection method RR and without LB
-- student-lbWRR:  testing project for selection method WRR
+- student-lbRR: testing project for selection method Round-robin and without LB
+- student-lbWRR: testing project for selection method weighted Round-robin
 
 ----------------------
 Testing topologies
 ----------------------
 - lbBW_flat: LB directly connected to servers
 - lbBW_flat7device: used for dynamic change testing
-- lbBW_singleSwitch: One switch with 4 clients & 3 servers
-- lbBW_tree_topo: LB directly connected to neither servers nor clients
+- lbBW_singleSwitch: a switch with 4 clients & 3 servers
+- lbBW_tree_topo: LB directly connected to neither server nor client
 
 ----------------------
 Testing tools
