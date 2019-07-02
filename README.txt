@@ -1,20 +1,27 @@
+This is the individual project completed for SDN course.
+Server Load Balancer is implemented in Java based on ONOS conroller via OpenFlow as Southbound interface. 
+
+
 ------------------
 ONOS projects
 ------------------
-student-lbdynam: Main implementation project
-student-lbRR: testing project for selection method RR and without LB
-student-lbWRR:  testing project for selection method WRR
+- student-lbdynam: Main implementation project
+- student-lbRR: testing project for selection method RR and without LB
+- student-lbWRR:  testing project for selection method WRR
+
 ----------------------
 Testing topologies
 ----------------------
-lbBW_flat: LB directly connected to servers
-lbBW_flat7device: used for dynamic change testing
-lbBW_singleSwitch: One switch with 4 clients & 3 servers
-lbBW_tree_topo: LB directly connected to neither servers nor clients
+- lbBW_flat: LB directly connected to servers
+- lbBW_flat7device: used for dynamic change testing
+- lbBW_singleSwitch: One switch with 4 clients & 3 servers
+- lbBW_tree_topo: LB directly connected to neither servers nor clients
 
-serial_req.py: python script run in client terminal to send requests
-
-changePort.sh: commands run in Mininet CLI to change the conneccting port of server 2
+----------------------
+Testing tools
+----------------------
+- serial_req.py: python script run in client terminal to send requests
+- changePort.sh: commands run in Mininet CLI to change the conneccting port of server 2
 
 ----------------------
 Testing steps
